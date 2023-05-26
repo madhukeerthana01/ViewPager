@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Images"
+
+    >
+
+    <TextView
+        android:id="@+id/imgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:shadowColor="#A10061"
+        android:text="Popular Visit Images"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/imgs"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/download"
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_below="@+id/i1"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/jj"
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_below="@+id/i2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/b"
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/i4"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i3"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/a"
+
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/i5"
+        android:layout_alignLeft="@+id/i4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/i6"
+        android:layout_width="wrap_content"
+        android:layout_height="231dp"
+        android:layout_below="@+id/i3"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/vvgds"
+        android:gravity="start" />
+</RelativeLayout>
